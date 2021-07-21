@@ -6,6 +6,7 @@ function displayblock(color){
       alert("Blue is already displayed.");
     else
       eleid.style.display = "block";
+    window.location.hash = '#blueblocks';
   }
   if(color == 'green'){
     var eleid = document.getElementById('greenblocks');
@@ -13,6 +14,7 @@ function displayblock(color){
       alert("Green is already displayed.");
     else
       eleid.style.display = "block";
+    window.location.hash = '#greenblocks';
   }
   if(color == 'red'){
     var eleid = document.getElementById('redblocks');
@@ -20,6 +22,7 @@ function displayblock(color){
       alert("Red is already displayed.");
     else
       eleid.style.display = "block";
+    window.location.hash = '#redblocks';
   }
   if(color == 'pink'){
     var eleid = document.getElementById('pinkblocks');
@@ -27,6 +30,7 @@ function displayblock(color){
       alert("Pink is already displayed.");
     else
       eleid.style.display = "block";
+    window.location.hash = '#pinkblocks';
   }
   if(color == 'purple'){
     var eleid = document.getElementById('purpleblocks');
@@ -34,6 +38,7 @@ function displayblock(color){
       alert("Purple is already displayed.");
     else
       eleid.style.display = "block";
+    window.location.hash = '#purpleblocks';
   }
   if(color == 'yellow'){
     var eleid = document.getElementById('yellowblocks');
@@ -41,6 +46,7 @@ function displayblock(color){
       alert("Yellow is already displayed.");
     else
       eleid.style.display = "block";
+    window.location.hash = '#yellowblocks';
   }
 }
 function overtoyoubtn(){
