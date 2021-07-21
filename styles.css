@@ -111,6 +111,15 @@ body {
   text-align:center;
 }
 .paragraph2{
+  font-size: 500%;
+  font-family: Microsoft JhengHei;
+  color:white;
+  margin: auto;
+  height: 100px;
+  text-align:center;
+  padding: 70px 0;
+}
+/* .paragraph2{
   //width: 500px;
   font-size: 500%;
   //font-family: Gadugi ;
@@ -121,7 +130,7 @@ body {
   //margin-top: 100px;
   text-align:center;
   padding: 70px 0;
-}
+} */
 /* .paragraph2{
   text-align: center;
   //border: 3px solid green;
