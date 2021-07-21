@@ -1,5 +1,4 @@
 function displayblock(color){
-  //alert(color);
   if(color == 'blue'){
     var eleid = document.getElementById('blueblocks');
     if(eleid.style.display == 'block')

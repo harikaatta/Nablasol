@@ -3,8 +3,6 @@ body {
   background-color: #e0ebeb;
 }
 .bluecontainer{
-  /* margin-left: 5%;
-  margin-right: 5%; */
   width: 100%;
   background-color: #30c9e8;
   height: 550px;
@@ -12,29 +10,21 @@ body {
 .containerwhite{
   display: none;
   background-color: white;
-  width: 250px;
+  width: 25%;
   height: 350px;
   float: left;
   margin-top: 100px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 4%;
+  margin-right: 4%;
   margin-bottom: 50px;
   box-shadow: 0px 1px 5px rgba(0 ,0,0,.7);
 }
 .menus{
-  /* margin-left: 5%;
-  margin-right: 5%; */
-  //margin-top: 5%;
   height: 70px;
   width: 100%;
   background-color: white;
 }
 .headerbuttonsr{
-  //float: left;
-  /* margin-top: 1%;
-  margin-bottom: 1%;
-  margin-left: 45%;
-  margin-right: 45%; */
   width: 50px;
   height: 50;
   padding: 10px 0px 10px 0px;
@@ -42,9 +32,6 @@ body {
 }
 .headerbtnsdiv{
   float: left;
-  /* margin-top: 1%;
-  margin-bottom: 1%; */
-  //width: 550px;
   text-align: center;
   width: 50%;
   height: 70;
@@ -52,24 +39,20 @@ body {
 .headerbuttons{
   float: left;
   padding: 25px 15px 25px 15px;
-  //border: 3px solid green;
-  //margin: auto;
   text-align: center;
   font-family:Microsoft JhengHei;
   cursor:pointer;
 }
 .threecontainers{
   margin-top: -200px;
-  padding-left: 115px;
-  padding-bottom: 50px;
   align-items: center;
 }
 .image{
-  width: 50px;
+  width:50px;
   height: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 100px;
+  padding: 25px 0 25px 0;
+  display: block;
+  margin: 0 auto;
 }
 .image2{
   width: 350px;
@@ -88,9 +71,6 @@ body {
   font-family:Microsoft JhengHei;
   text-align: center;
   line-height: 1px;
-  /* margin-left: 500px;
-  margin-top: 50px; */
-
   color:white
 }
 .redbuttondiv{
@@ -110,6 +90,13 @@ body {
   font-family:Microsoft JhengHei;
   text-align:center;
 }
+.paragraph3{
+  width:32%;
+  margin:auto;
+  font-family:Microsoft JhengHei;
+  color:white;
+  text-align:center;
+}
 .paragraph2{
   font-size: 500%;
   font-family: Microsoft JhengHei;
@@ -119,19 +106,192 @@ body {
   text-align:center;
   padding: 70px 0;
 }
-/* .paragraph2{
-  //width: 500px;
-  font-size: 500%;
-  //font-family: Gadugi ;
-  font-family: Microsoft JhengHei;
-  color:white;
-  margin: auto;
-  height: 100px;
-  //margin-top: 100px;
-  text-align:center;
-  padding: 70px 0;
-} */
-/* .paragraph2{
-  text-align: center;
-  //border: 3px solid green;
-} */
+@media screen and (max-width: 500px) {
+  .menus{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+  }
+  .headerbtnsdiv{
+    float: left;
+    text-align: center;
+    width: 50%;
+    height: 100px;
+    display: block;
+  }
+  .headerbuttons{
+    width: 50px;
+    padding: 15px 1px 10px 1px;
+    cursor:pointer;
+  }
+  img.headerbuttonsr {
+    width:50px;
+    height: 50px;
+    padding: 25px 0 25px 0;
+    display: block;
+    margin: 0 auto;
+  }
+  .bluecontainer{
+    width: 100%;
+    background-color: #30c9e8;
+    height: 50%;
+  }
+  .paragraph2{
+    font-size: 300%;
+    font-family: Microsoft JhengHei;
+    color:white;
+    margin: auto;
+    height: 25%;
+    text-align:center;
+    padding: 2% 0;
+  }
+  .paragraph3{
+    width:75%;
+    margin:auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family:Microsoft JhengHei;
+    color:white;
+    text-align:center;
+  }
+  .redbuttondiv{
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  .redbutton{
+    background-color: Red;
+    border: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 40px;
+    padding: 20px;
+    font-family:Microsoft JhengHei;
+    text-align: center;
+    line-height: 1px;
+    color:white
+  }
+  .threecontainers{
+    margin-top: -75px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 50px;
+    align-items: center;
+  }
+  .containerwhite{
+    display: none;
+    background-color: white;
+    width: 80%;
+    height: 350px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    box-shadow: 0px 1px 5px rgba(0 ,0,0,.7);
+  }
+  .image{
+    width:50px;
+    height: 50px;
+    padding: 25px 0 25px 0;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1000px) and (min-width: 700px){
+  .menus{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+  }
+  .headerbtnsdiv{
+    float: left;
+    text-align: center;
+    width: 50%;
+    height: 100px;
+    display: block;
+  }
+  .headerbuttons{
+    width: 60px;
+    padding: 40px 0px 40px 0px;
+    cursor:pointer;
+  }
+  img.headerbuttonsr {
+    width:50px;
+    height: 50px;
+    padding: 25px 0 25px 0;
+    display: block;
+    margin: 0 auto;
+  }
+  .bluecontainer{
+    width: 100%;
+    background-color: #30c9e8;
+    height: 50%;
+  }
+  .paragraph2{
+    font-size: 300%;
+    font-family: Microsoft JhengHei;
+    color:white;
+    margin: auto;
+    height: 25%;
+    text-align:center;
+    padding: 2% 0;
+  }
+  .paragraph3{
+    width:75%;
+    margin:auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family:Microsoft JhengHei;
+    color:white;
+    text-align:center;
+  }
+  .redbuttondiv{
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  .redbutton{
+    background-color: Red;
+    border: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 40px;
+    padding: 20px;
+    font-family:Microsoft JhengHei;
+    text-align: center;
+    line-height: 1px;
+    color:white
+  }
+  .threecontainers{
+    margin-top: -60px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 50px;
+    align-items: center;
+  }
+  .containerwhite{
+    display: none;
+    background-color: white;
+    width: 40%;
+    height: 350px;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    box-shadow: 0px 1px 5px rgba(0 ,0,0,.7);
+  }
+  .image{
+    width:50px;
+    height: 50px;
+    padding: 25px 0 25px 0;
+    display: block;
+    margin: 0 auto;
+  }
+}
