@@ -56,4 +56,5 @@ function overtoyoubtn(){
   document.getElementById('greenblocks').style.display = "none";
   document.getElementById('pinkblocks').style.display = "none";
   document.getElementById('purpleblocks').style.display = "none";
+  window.location.hash = '#bluecontainer';
 }
